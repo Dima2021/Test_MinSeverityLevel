@@ -1,0 +1,534 @@
+[INFO] [2020-03-27 13:06:31,782 -0500[ - UnifiedAgent version (pluginVersion) : 20.2.2
+[INFO] [2020-03-27 13:06:32,455 -0500[ - 
+------------------------------------------------------------------------
+-------------------- Start: Fetch Configuration ------------------------
+------------------------------------------------------------------------
+[INFO] [2020-03-27 13:06:32,456 -0500[ - 
+------------------------------------------------------------------------
+-------------------- End: Fetch Configuration --------------------------
+------------------------------------------------------------------------
+[INFO] [2020-03-27 13:06:33,015 -0500[ - 
+##### general #####
+wss.url=https://saas.whitesourcesoftware.com/agent
+resolveAllDependencies=false
+requireKnownSha1=false
+projectTag=
+projectName=ksa-dao-context
+productName=Demo
+includes=**/*.jar,**/*.war,**/*.ear
+forceUpdate.failBuildOnPolicyViolation=false
+forceUpdate=false
+forceCheckAllDependencies=false
+enableImpactAnalysis=true
+configFilePath=C:\WhiteSource\DemoProjects\wss-unified-agent-EUA-Java-DREW-GALE.config
+checkPolicies=false
+appPath=C:/WhiteSource/DemoProjects/ksa/ksa-dao-context/target/ksa-dao-context-3.9.0.jar
+apiKey=******
+#whiteSourceFolderPath=.
+#userKey=
+#updateType=OVERRIDE
+#updateInventory=true
+#updateEmptyProject=true
+#scanReportTimeoutMinutes=10
+#scanReportFilenameFormat=project_with_timestamp
+#scanPackageManager=false
+#scanComment=
+#requesterEmail=
+#recommendationDetector=false
+#projectVersion=
+#projectToken=
+#projectPerFolderIncludes=*
+#projectPerFolderExcludes=
+#projectPerFolder=false
+#productVersion=
+#productToken=
+#offline.zip=false
+#offline.prettyJson=true
+#offline=false
+#log.level=info
+#ignoreSourceFiles=false
+#iaLanguage=
+#generateScanReport=false
+#generateProjectDetailsJson=false
+#failErrorLevel=DEFAULT
+#excludes=
+#excludeDependenciesFromNodes=
+#euaVul=euaVul.json
+#euaRes=euaRes.json
+#euaOffline=
+#euaDep=euaDep.json
+#docker.scanContainers=false
+#analyzeMultiModule=
+#analyzeFrameworksReference=analyzeFrameworks.txt
+#analyzeFrameworks=false
+
+#####  #####
+#ignoreEuaNotices=informational
+#euaRefactored=false
+
+##### ANT #####
+#ant.resolveDependencies=false
+#ant.pathIdIncludes=
+#ant.external.parameters=
+
+##### archive #####
+#archiveIncludes=
+#archiveExtractionDepth=0
+#archiveExcludes=
+
+##### artifactory #####
+#artifactory.userPassword=
+#artifactory.userName=
+#artifactory.url=
+#artifactory.repoKeys=
+#artifactory.includes=.*.*
+#artifactory.excludes=
+#artifactory.enableScan=false
+#artifactory.accessToken=
+
+##### bower #####
+#bower.runPreStep=false
+#bower.resolveDependencies=false
+#bower.ignoreSourceFiles=false
+
+##### cabal #####
+#haskell.resolveDependencies=false
+
+##### cargo #####
+#cargo.runPreStep=false
+#cargo.resolveDependencies=false
+#cargo.ignoreSourceFiles=true
+
+##### cocoapods #####
+#cocoapods.runPreStep=false
+#cocoapods.resolveDependencies=false
+#cocoapods.ignoreSourceFiles=true
+
+##### docker #####
+#docker.scanTarFiles=false
+#docker.scanImages=false
+#docker.scan.maxImages=0
+#docker.pull.tags=
+#docker.pull.maxImages=10
+#docker.pull.images=
+#docker.pull.force=false
+#docker.pull.enable=false
+#docker.pull.digest=
+#docker.login.sudo=true
+#docker.includes=.*.*
+#docker.includeSingleScan=
+#docker.excludes=
+#docker.delete.force=false
+#docker.containerIncludes=.*.*
+#docker.containerExcludes=
+
+##### docker artifactory #####
+#docker.artifactory.userPassword=
+#docker.artifactory.userName=
+#docker.artifactory.url=
+#docker.artifactory.repositoriesNames=
+#docker.artifactory.pullUrl=
+#docker.artifactory.enable=false
+#docker.artifactory.dockerAccessMethod= 
+
+##### docker aws #####
+#docker.aws.registryIds=
+#docker.aws.region=east
+#docker.aws.enable=false
+
+##### docker azure #####
+#docker.azure.userPassword=
+#docker.azure.userName=
+#docker.azure.registryNames=
+#docker.azure.enable=false
+
+##### docker google containers #####
+#docker.gcr.repositories=
+#docker.gcr.enable=false
+#docker.gcr.account=
+
+##### docker hub #####
+#docker.hub.userPassword=
+#docker.hub.userName=
+#docker.hub.organizationsNames=
+#docker.hub.enabled=false
+#docker.hub.accessToken=
+
+##### environment #####
+followSymbolicLinks=true
+case.sensitive.glob=false
+
+##### go #####
+#go.resolveDependencies=false
+#go.ignoreSourceFiles=false
+#go.gogradle.enableTaskAlias=false
+#go.glide.ignoreTestPackages=true
+#go.dependencyManager=
+#go.collectDependenciesAtRuntime=false
+
+##### gradle #####
+gradle.resolveDependencies=true
+gradle.aggregateModules=true
+#gradle.wrapperPath=
+#gradle.runPreStep=false
+#gradle.runAssembleCommand=true
+#gradle.preferredEnvironment=gradle
+#gradle.localRepositoryPath=
+#gradle.includedScopes=
+#gradle.includedConfigurations=
+#gradle.includeModules=
+#gradle.ignoredScopes=
+#gradle.ignoredConfigurations=
+#gradle.ignoreSourceFiles=false
+#gradle.excludeModules=
+#gradle.additionalArguments=
+
+##### hex #####
+#hex.runPreStep=false
+#hex.resolveDependencies=false
+#hex.ignoreSourceFiles=true
+#hex.aggregateModules=false
+
+##### html #####
+#html.resolveDependencies=false
+
+##### maven #####
+maven.resolveDependencies=true
+maven.ignoredScopes=None
+maven.ignoreMvnTreeErrors=false
+maven.aggregateModules=true
+#maven.runPreStep=false
+#maven.projectNameFromDependencyFile=false
+#maven.maxCacheFolderSize=
+#maven.m2RepositoryPath=
+#maven.ignoreSourceFiles=false
+#maven.ignorePomModules=true
+#maven.environmentPath=
+#maven.downloadMissingDependencies=true
+#maven.additionalArguments=
+
+##### npm #####
+#npm.yarnProject=false
+#npm.yarn.frozenLockfile=false
+#npm.timeoutDependenciesCollectorInSeconds=60
+#npm.runPreStep=false
+#npm.resolveMainPackageJsonOnly=false
+#npm.resolveLockFile=false
+#npm.resolveGlobalPackages=false
+#npm.resolveDependencies=false
+#npm.resolveAdditionalDependencies=false
+#npm.removeDuplicateDependencies=true
+#npm.projectNameFromDependencyFile=false
+#npm.includeDevDependencies=false
+#npm.ignoreSourceFiles=true
+#npm.ignoreScripts=false
+#npm.ignoreNpmLsErrors=false
+#npm.ignoreJavaScriptFiles=true
+#npm.identifyByNameAndVersion=false
+#npm.failOnNpmLsErrors=
+#npm.accessToken=
+
+##### nuget #####
+#nuget.runPreStep=false
+#nuget.restoreDependencies=false
+#nuget.resolvePackagesConfigFiles=true
+#nuget.resolveNuspecFiles=true
+#nuget.resolveDependencies=false
+#nuget.resolveCsProjFiles=true
+#nuget.preferredEnvironment=
+#nuget.packagesDirectory=
+#nuget.ignoreSourceFiles=true
+
+##### ocaml #####
+#ocaml.switchName=
+#ocaml.runPreStep=false
+#ocaml.resolveDependencies=false
+#ocaml.ignoredScopes=with-test,with-doc
+#ocaml.ignoreSourceFiles=false
+#ocaml.aggregateModules=false
+
+##### paket #####
+#paket.runPreStep=false
+#paket.resolveDependencies=false
+#paket.ignoredGroups=
+#paket.ignoreSourceFiles=true
+#paket.exePath=
+
+##### php #####
+#php.runPreStep=false
+#php.resolveDependencies=false
+#php.includeDevDependencies=false
+#php.ignoreSourceFiles=true
+
+##### pub #####
+#pub.runPreStep=false
+#pub.resolveDependencies=false
+#pub.includeDevDependencies=false
+#pub.ignoreSourceFiles=true
+#pub.dependencySourceExclude=
+
+##### python #####
+#python.uninstallWssPlugin=false
+#python.runPoetryPreStep=false
+#python.runPipenvPreStep=false
+#python.resolveSetupPyFiles=false
+#python.resolvePipEditablePackages=false
+#python.resolveHierarchyTree=true
+#python.resolveGlobalPackages=false
+#python.resolveDependencies=false
+#python.requirementsFileIncludes=requirements.txt,Pipfile,pyproject.toml
+#python.pipenvDevDependencies=false
+#python.pipPath=pip
+#python.path=python
+#python.isWssPluginInstalled=false
+#python.isEmptyEnvironment=false
+#python.installVirtualenv=false
+#python.indexUrl=
+#python.includePoetryDevDependencies=false
+#python.ignoreSourceFiles=true
+#python.ignorePipInstallErrors=false
+#python.IgnorePipenvInstallErrors=false
+
+##### r_language #####
+#r.runPreStep=false
+#r.resolveDependencies=false
+#r.packageManager=packrat
+#r.ignoreSourceFiles=true
+#r.cranMirrorUrl=
+
+##### ruby #####
+#ruby.runBundleInstall=false
+#ruby.resolveDependencies=false
+#ruby.overwriteGemFile=false
+#ruby.installMissingGems=false
+#ruby.ignoreSourceFiles=true
+
+##### sbt #####
+sbt.targetFolder=
+#sbt.runPreStep=false
+#sbt.resolveDependencies=false
+#sbt.includedScopes=compile,runtime
+#sbt.ignoreSourceFiles=false
+#sbt.aggregateModules=false
+
+##### scm #####
+#scm.url=
+#scm.tag=
+#scm.branch=
+
+##### serverless #####
+#serverless.scanFunctions=false
+#serverless.region=
+#serverless.provider=aws-lambda
+#serverless.maxFunctions=10
+#serverless.includes=
+#serverless.excludes=
+
+[DEBUG] [2020-03-27 13:06:33,101 -0500[ - Available processors (cores): 	8
+Free memory (Mb): 	107
+Max memory (Mb): 	256
+Total memory (Mb): 	256
+Used memory (Mb): 	148
+
+[INFO] [2020-03-27 13:06:33,109 -0500[ - Starting analysis
+[INFO] [2020-03-27 13:06:33,109 -0500[ - Scanning directories [C:\WhiteSource\DemoProjects\ksa\ksa-dao-context] for package dependencies (may take a few minutes)
+[INFO] [2020-03-27 13:06:33,110 -0500[ - Included file types: **/*.jar,**/*.war,**/*.ear
+[INFO] [2020-03-27 13:06:33,110 -0500[ - Excluded file types: 
+[INFO] [2020-03-27 13:06:33,110 -0500[ - 
+------------------------------------------------------------------------
+-------------------- Start: Scan Files Matching Includes Pattern -------
+------------------------------------------------------------------------
+[DEBUG] [2020-03-27 13:06:33,111 -0500[ - Scanning C:\WhiteSource\DemoProjects\ksa\ksa-dao-context
+[DEBUG] [2020-03-27 13:06:33,122 -0500[ - Dependency file found location: C:\WhiteSource\DemoProjects\ksa\ksa-dao-context\pom.xml
+[INFO] [2020-03-27 13:06:33,433 -0500[ - Attempting to resolve dependencies
+[INFO] [2020-03-27 13:06:33,434 -0500[ - 
+------------------------------------------------------------------------
+-------------------- Start: Pre-Step And Resolve Dependencies ----------
+------------------------------------------------------------------------
+[DEBUG] [2020-03-27 13:06:33,464 -0500[ - FilesFrom: MavenDependencyResolver, Dependency file found location: C:\WhiteSource\DemoProjects\ksa\ksa-dao-context\pom.xml
+[DEBUG] [2020-03-27 13:06:33,807 -0500[ - found folders:
+
+[DEBUG] [2020-03-27 13:06:33,811 -0500[ - C:\WhiteSource\DemoProjects\ksa
+[DEBUG] [2020-03-27 13:06:33,811 -0500[ - 
+
+[DEBUG] [2020-03-27 13:06:33,817 -0500[ - 
+
+[DEBUG] [2020-03-27 13:06:33,843 -0500[ - Finishing reduce dependencies
+[INFO] [2020-03-27 13:06:33,869 -0500[ - Trying to resolve MAVEN dependencies
+[DEBUG] [2020-03-27 13:06:33,885 -0500[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c jdeps.exe -version' in '.'
+[DEBUG] [2020-03-27 13:06:39,143 -0500[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn -v' in '.'
+[DEBUG] [2020-03-27 13:06:53,501 -0500[ - MAVEN installation status: true
+[DEBUG] [2020-03-27 13:06:53,634 -0500[ - The command was run under C:\WhiteSource\DemoProjects\ksa\ksa-dao-context\.
+[INFO] [2020-03-27 13:06:53,634 -0500[ - topFolder = C:\WhiteSource\DemoProjects\ksa\ksa-dao-context
+[DEBUG] [2020-03-27 13:06:53,781 -0500[ - topFolder = C:\WhiteSource\DemoProjects\ksa\ksa-dao-context
+[DEBUG] [2020-03-27 13:06:53,932 -0500[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn -v' in 'C:\WhiteSource\DemoProjects\ksa\ksa-dao-context'
+[DEBUG] [2020-03-27 13:07:07,182 -0500[ - Command result output lines for 'cmd /c mvn -v':
+[DEBUG] [2020-03-27 13:07:07,183 -0500[ - Read line #1: Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+[DEBUG] [2020-03-27 13:07:07,183 -0500[ - Read line #2: Maven home: C:\Program Files\apache-maven-3.6.3\bin\..
+[DEBUG] [2020-03-27 13:07:07,183 -0500[ - Read line #3: Java version: 11.0.5, vendor: Oracle Corporation, runtime: C:\Progra~1\Java\jdk-11.0.5
+[DEBUG] [2020-03-27 13:07:07,184 -0500[ - Read line #4: Default locale: en_US, platform encoding: Cp1252
+[DEBUG] [2020-03-27 13:07:07,184 -0500[ - Read line #5: OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] [2020-03-27 13:07:07,186 -0500[ - Maven : [Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f), Maven home: C:\Program Files\apache-maven-3.6.3\bin\.., Java version: 11.0.5, vendor: Oracle Corporation, runtime: C:\Progra~1\Java\jdk-11.0.5, Default locale: en_US, platform encoding: Cp1252, OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"]
+[DEBUG] [2020-03-27 13:07:07,193 -0500[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt -B' in 'C:\WhiteSource\DemoProjects\ksa\ksa-dao-context'
+[DEBUG] [2020-03-27 13:08:28,949 -0500[ - Command result output lines for 'cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt -B':
+[DEBUG] [2020-03-27 13:08:28,950 -0500[ - Read line #1: [INFO] Scanning for projects...
+[DEBUG] [2020-03-27 13:08:28,950 -0500[ - Read line #2: [INFO] 
+[DEBUG] [2020-03-27 13:08:28,950 -0500[ - Read line #3: [INFO] ----------------------< com.ksa:ksa-dao-context >-----------------------
+[DEBUG] [2020-03-27 13:08:28,950 -0500[ - Read line #4: [INFO] Building ksa-dao-context 3.9.0
+[DEBUG] [2020-03-27 13:08:28,951 -0500[ - Read line #5: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-03-27 13:08:28,951 -0500[ - Read line #6: [INFO] 
+[DEBUG] [2020-03-27 13:08:28,951 -0500[ - Read line #7: [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ ksa-dao-context ---
+[DEBUG] [2020-03-27 13:08:28,951 -0500[ - Read line #8: [INFO] Wrote dependency tree to: C:\WhiteSource\DemoProjects\ksa\ksa-dao-context\whitesource_mvn_dependency_tree.txt
+[DEBUG] [2020-03-27 13:08:28,951 -0500[ - Read line #9: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-03-27 13:08:28,951 -0500[ - Read line #10: [INFO] BUILD SUCCESS
+[DEBUG] [2020-03-27 13:08:28,952 -0500[ - Read line #11: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-03-27 13:08:28,952 -0500[ - Read line #12: [INFO] Total time:  27.227 s
+[DEBUG] [2020-03-27 13:08:28,952 -0500[ - Read line #13: [INFO] Finished at: 2020-03-27T13:08:23-05:00
+[DEBUG] [2020-03-27 13:08:28,952 -0500[ - Read line #14: [INFO] ------------------------------------------------------------------------
+[INFO] [2020-03-27 13:08:28,958 -0500[ - Start parsing pom files
+[INFO] [2020-03-27 13:08:28,959 -0500[ - Reading maven dependencies tree output file 'C:\WhiteSource\DemoProjects\ksa\ksa-dao-context\whitesource_mvn_dependency_tree.txt'
+[INFO] [2020-03-27 13:08:28,969 -0500[ - com.ksa:ksa-dao-context:jar:3.9.0
+[INFO] [2020-03-27 13:08:28,970 -0500[ - +- org.mybatis:mybatis:jar:3.1.1:compile
+[INFO] [2020-03-27 13:08:28,970 -0500[ - +- org.mybatis:mybatis-spring:jar:1.1.1:compile
+[INFO] [2020-03-27 13:08:28,970 -0500[ - |  +- org.springframework:spring-core:jar:3.1.1.RELEASE:compile
+[INFO] [2020-03-27 13:08:28,970 -0500[ - |  |  \- commons-logging:commons-logging:jar:1.1.1:compile
+[INFO] [2020-03-27 13:08:28,970 -0500[ - |  +- org.springframework:spring-tx:jar:3.1.1.RELEASE:compile
+[INFO] [2020-03-27 13:08:28,970 -0500[ - |  |  \- org.springframework:spring-beans:jar:3.1.1.RELEASE:compile
+[INFO] [2020-03-27 13:08:28,971 -0500[ - |  +- org.springframework:spring-jdbc:jar:3.1.1.RELEASE:compile
+[INFO] [2020-03-27 13:08:28,971 -0500[ - |  \- org.springframework:spring-context:jar:3.1.1.RELEASE:compile
+[INFO] [2020-03-27 13:08:28,971 -0500[ - |     +- org.springframework:spring-aop:jar:3.1.1.RELEASE:compile
+[INFO] [2020-03-27 13:08:28,971 -0500[ - |     |  \- aopalliance:aopalliance:jar:1.0:compile
+[INFO] [2020-03-27 13:08:28,972 -0500[ - |     +- org.springframework:spring-expression:jar:3.1.1.RELEASE:compile
+[INFO] [2020-03-27 13:08:28,972 -0500[ - |     \- org.springframework:spring-asm:jar:3.1.1.RELEASE:compile
+[INFO] [2020-03-27 13:08:28,972 -0500[ - +- com.ksa:ksa-core:jar:3.9.0:compile
+[INFO] [2020-03-27 13:08:28,972 -0500[ - |  +- commons-lang:commons-lang:jar:2.6:compile
+[INFO] [2020-03-27 13:08:28,973 -0500[ - |  \- com.ksa:ksa-debug:jar:3.9.0:compile
+[INFO] [2020-03-27 13:08:28,973 -0500[ - |     +- commons-dbcp:commons-dbcp:jar:1.4:compile
+[INFO] [2020-03-27 13:08:28,973 -0500[ - |     |  \- commons-pool:commons-pool:jar:1.5.4:compile
+[INFO] [2020-03-27 13:08:28,974 -0500[ - |     +- com.h2database:h2:jar:1.3.162:compile
+[INFO] [2020-03-27 13:08:28,974 -0500[ - |     +- mysql:mysql-connector-java:jar:5.1.18:compile
+[INFO] [2020-03-27 13:08:28,974 -0500[ - |     \- org.freemarker:freemarker:jar:2.3.18:compile
+[INFO] [2020-03-27 13:08:28,974 -0500[ - +- org.slf4j:slf4j-api:jar:1.6.1:compile
+[INFO] [2020-03-27 13:08:28,974 -0500[ - +- junit:junit:jar:4.8.2:test
+[INFO] [2020-03-27 13:08:28,975 -0500[ - +- org.slf4j:slf4j-log4j12:jar:1.6.1:test
+[INFO] [2020-03-27 13:08:28,975 -0500[ - \- log4j:log4j:jar:1.2.16:test
+[INFO] [2020-03-27 13:08:29,344 -0500[ - End parsing pom files , found : ksa-dao-context
+[INFO] [2020-03-27 13:08:29,345 -0500[ - The following maven scopes will be ignored : []
+[DEBUG] [2020-03-27 13:08:29,523 -0500[ - converting node to dependency :mybatis
+[DEBUG] [2020-03-27 13:08:29,525 -0500[ - converting node to dependency :mybatis-spring
+[DEBUG] [2020-03-27 13:08:29,526 -0500[ - converting node to dependency :spring-core
+[DEBUG] [2020-03-27 13:08:29,527 -0500[ - converting node to dependency :commons-logging
+[DEBUG] [2020-03-27 13:08:29,527 -0500[ - converting node to dependency :spring-tx
+[DEBUG] [2020-03-27 13:08:29,528 -0500[ - converting node to dependency :spring-beans
+[DEBUG] [2020-03-27 13:08:29,530 -0500[ - converting node to dependency :spring-jdbc
+[DEBUG] [2020-03-27 13:08:29,530 -0500[ - converting node to dependency :spring-context
+[DEBUG] [2020-03-27 13:08:29,532 -0500[ - converting node to dependency :spring-aop
+[DEBUG] [2020-03-27 13:08:29,533 -0500[ - converting node to dependency :aopalliance
+[DEBUG] [2020-03-27 13:08:29,533 -0500[ - converting node to dependency :spring-expression
+[DEBUG] [2020-03-27 13:08:29,534 -0500[ - converting node to dependency :spring-asm
+[DEBUG] [2020-03-27 13:08:29,534 -0500[ - converting node to dependency :ksa-core
+[DEBUG] [2020-03-27 13:08:29,535 -0500[ - converting node to dependency :commons-lang
+[DEBUG] [2020-03-27 13:08:29,535 -0500[ - converting node to dependency :ksa-debug
+[DEBUG] [2020-03-27 13:08:29,536 -0500[ - converting node to dependency :commons-dbcp
+[DEBUG] [2020-03-27 13:08:29,536 -0500[ - converting node to dependency :commons-pool
+[DEBUG] [2020-03-27 13:08:29,537 -0500[ - converting node to dependency :h2
+[DEBUG] [2020-03-27 13:08:29,537 -0500[ - converting node to dependency :mysql-connector-java
+[DEBUG] [2020-03-27 13:08:29,537 -0500[ - converting node to dependency :freemarker
+[DEBUG] [2020-03-27 13:08:29,538 -0500[ - converting node to dependency :slf4j-api
+[DEBUG] [2020-03-27 13:08:29,538 -0500[ - converting node to dependency :junit
+[DEBUG] [2020-03-27 13:08:29,539 -0500[ - converting node to dependency :slf4j-log4j12
+[DEBUG] [2020-03-27 13:08:29,539 -0500[ - converting node to dependency :log4j
+[DEBUG] [2020-03-27 13:08:30,812 -0500[ - Project/Module coordinates: Coordinates@59d2afcf[groupId= com.ksa,artifactId= ksa-dao-context,version= 3.9.0 ]
+[DEBUG] [2020-03-27 13:08:30,815 -0500[ - Total project direct dependencies found : 7
+[DEBUG] [2020-03-27 13:08:30,831 -0500[ - ProjectInfo direct dependency added : 7
+[INFO] [2020-03-27 13:08:31,326 -0500[ - 
+------------------------------------------------------------------------
+-------------------- End: Pre-Step And Resolve Dependencies ------------
+------------------------------------------------------------------------
+[DEBUG] [2020-03-27 13:08:31,330 -0500[ - total resolved projects =1
+[INFO] [2020-03-27 13:08:31,336 -0500[ - Total dependencies found for all resolvers: 24 (24 unique)
+[INFO] [2020-03-27 13:08:31,338 -0500[ - Scanning directories [C:\WhiteSource\DemoProjects\ksa\ksa-dao-context] for matching source/binary file types (may take a few minutes)
+[DEBUG] [2020-03-27 13:08:31,339 -0500[ - Scanning C:\WhiteSource\DemoProjects\ksa\ksa-dao-context
+[DEBUG] [2020-03-27 13:08:32,332 -0500[ - Dependency file found location: C:\WhiteSource\DemoProjects\ksa\ksa-dao-context\target\ksa-dao-context-3.9.0-sources.jar
+[DEBUG] [2020-03-27 13:08:32,333 -0500[ - Dependency file found location: C:\WhiteSource\DemoProjects\ksa\ksa-dao-context\target\ksa-dao-context-3.9.0.jar
+[INFO] [2020-03-27 13:08:32,507 -0500[ - Total files found according to the includes/excludes pattern: 2
+[INFO] [2020-03-27 13:08:32,994 -0500[ - 
+------------------------------------------------------------------------
+-------------------- End: Scan Files Matching Includes Pattern ---------
+------------------------------------------------------------------------
+[INFO] [2020-03-27 13:08:32,994 -0500[ - Finished analyzing Files
+[DEBUG] [2020-03-27 13:08:32,994 -0500[ - Available processors (cores): 	8
+Free memory (Mb): 	98
+Max memory (Mb): 	256
+Total memory (Mb): 	256
+Used memory (Mb): 	157
+
+[INFO] [2020-03-27 13:08:33,013 -0500[ - Initializing WhiteSource Client
+[DEBUG] [2020-03-27 13:08:33,014 -0500[ - Setting project tags
+[INFO] [2020-03-27 13:08:33,016 -0500[ - Service URL is https://saas.whitesourcesoftware.com/agent
+[INFO] [2020-03-27 13:08:34,557 -0500[ - UpdateType set to OVERRIDE 
+[INFO] [2020-03-27 13:08:34,559 -0500[ - Effective Usage Analysis version: 2020.2.3.746
+[INFO] [2020-03-27 13:08:34,560 -0500[ - 
+------------------------------------------------------------------------
+-------------------- Start: Effective Usage Analysis -------------------
+------------------------------------------------------------------------
+[INFO] [2020-03-27 13:08:34,905 -0500[ - Starting analysis for: C:/WhiteSource/DemoProjects/ksa/ksa-dao-context/target/ksa-dao-context-3.9.0.jar
+[INFO] [2020-03-27 13:08:34,907 -0500[ - --------------------Effective Usage Analysis----------------------
+
+[INFO] [2020-03-27 13:09:23,010 -0500[ - Analysis finished (0:00:45)                                         
+
+[INFO] [2020-03-27 13:09:23,011 -0500[ - SUMMARY
+[INFO] [2020-03-27 13:09:23,013 -0500[ - ----------------------------------------
+
+[INFO] [2020-03-27 13:09:23,017 -0500[ - [EUA000] Analysis completed successfully
+[INFO] [2020-03-27 13:09:23,017 -0500[ - ------------------------------------------------------------------
+
+[INFO] [2020-03-27 13:09:23,026 -0500[ - Got impact analysis result from server
+[INFO] [2020-03-27 13:09:23,027 -0500[ - 
+------------------------------------------------------------------------
+-------------------- End: Effective Usage Analysis ---------------------
+------------------------------------------------------------------------
+[INFO] [2020-03-27 13:09:23,027 -0500[ - Sending Update
+[INFO] [2020-03-27 13:09:23,028 -0500[ - 
+------------------------------------------------------------------------
+-------------------- Start: Update Inventory ---------------------------
+------------------------------------------------------------------------
+[INFO] [2020-03-27 13:09:25,244 -0500[ - 
+------------------------------------------------------------------------
+-------------------- End: Update Inventory -----------------------------
+------------------------------------------------------------------------
+[INFO] [2020-03-27 13:09:25,277 -0500[ - Inventory update results for WS_DREW_GALE_ORG
+[INFO] [2020-03-27 13:09:25,277 -0500[ - No new projects found.
+[INFO] [2020-03-27 13:09:25,278 -0500[ - Updated projects:
+[INFO] [2020-03-27 13:09:25,278 -0500[ - # ksa-dao-context
+[INFO] [2020-03-27 13:09:25,278 -0500[ - Project name: ksa-dao-context, URL: https://saas.whitesourcesoftware.com/Wss/WSS.html#!project;id=2117323
+[INFO] [2020-03-27 13:09:25,278 -0500[ - Support Token: 1d17a9da7c7494347ae4887c728f65f351585332563429
+[DEBUG] [2020-03-27 13:09:25,280 -0500[ - Process finished with exit code SUCCESS (Inventory update results for WS_DREW_GALE_ORG
+No new projects found.
+Updated projects:
+ksa-dao-context
+
+Project name: ksa-dao-context, project URL:https://saas.whitesourcesoftware.com/Wss/WSS.html#!project;id=2117323
+Support Token: 1d17a9da7c7494347ae4887c728f65f351585332563429)
+[INFO] [2020-03-27 13:09:25,281 -0500[ - Log files are found at: .\whitesource\Fri-Mar-27-2020-13.06.30
+[INFO] [2020-03-27 13:09:25,340 -0500[ - 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------- WhiteSource Scan Summary: --------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+======================================================================================================================================================
+Scan Origin: Local File System
+======================================================================================================================================================
+Step                                              Completion Status               Elapsed                  Comments
+======================================================================================================================================================
+Fetch Configuration                                  COMPLETED                  00:00:00.663               --------
+Pre-Step And Resolve Dependencies                    COMPLETED                  00:01:52.180               24 total dependencies (24 unique)
+   MAVEN                                             COMPLETED                  00:01:52.180               24 total dependencies (24 unique)
+Scan Files Matching Includes Pattern                 COMPLETED                  00:00:00.808               2 source/binary files
+   jar                                               COMPLETED                    --------                 2 source/binary files
+Effective Usage Analysis                             COMPLETED                  00:00:48.467               --------
+Update Inventory                                     COMPLETED                  00:00:02.216               1 updated projects
+
+======================================================================================================================================================
+Elapsed running time:                                                           00:02:44.334
+======================================================================================================================================================
+Process finished with exit code SUCCESS (0)
